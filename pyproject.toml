@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "snowflake-cortex-agent-python"
+version = "0.1.0"
+description = "A Python interface for the Snowflake Cortex Agent REST API"
+authors = [
+    { name="Michael Gorkow", email="michael.gorkow@snowflake.com" }
+]
+license = { text = "MIT" }
+readme = "README.md"
+requires-python = ">=3.8"
+
+dependencies = [
+    "requests>=2.28",
+    "pydantic>=2.0",  # Optional, if you're using data models
+]
+
+[project.urls]
+"Homepage" = "https://github.com/michaelgorkow/snowflake-cortex-agent-python"
+"Bug Tracker" = "https://github.com/michaelgorkow/snowflake-cortex-agent-python/issues"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,1 +1,1 @@
-# snowflakesnowflake-cortex-agent-py
+# Python interface for the Snowflake Cortex Agent REST API
