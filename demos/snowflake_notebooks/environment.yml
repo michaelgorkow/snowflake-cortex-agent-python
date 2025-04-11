@@ -1,0 +1,13 @@
+name: app_environment
+channels:
+  - snowflake
+dependencies:
+  - altair=*
+  - cryptography=*
+  - httpx=*
+  - httpx-sse=*
+  - nest-asyncio=*
+  - pyjwt=*
+  - rich=*
+  - snowflake-ml-python=*
+  - tabulate=*

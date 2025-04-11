@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+rsa_key.p8
+rsa_key.pub
+pat.txt
+.DS_Store
+cortex_agent.zip
